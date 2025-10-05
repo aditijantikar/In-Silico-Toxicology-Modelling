@@ -1,11 +1,13 @@
 **In Silico Toxicology Modeling for Drug Discovery**
 
-**Project Overview**
+**Project Overview:**
+
 This project builds upon the "In Silico Toxicology Modeling" tutorial originally created by Dr. Layla Hosseini-Gerami and Srijit Seal. While the initial framework is based on their work, this repository has been extended to include the implementation and hyperparameter tuning of a LightGBM model, which is then compared against the original Random Forest baseline.
 
 The goal was to demonstrate a complete machine learning workflow, from reproducing a baseline to optimizing and validating a more advanced algorithm.
 
-**Methodology & Results**
+**Methodology & Results:**
+
 A baseline Random Forest model was first established, achieving an AUC-ROC of 0.835 and an F1-score of 0.50 for the toxic class. To improve upon this, an advanced LightGBM model was implemented. Its hyperparameters were systematically optimized using a 5-fold cross-validated grid search (GridSearchCV).
 
 Performance Comparison
@@ -17,7 +19,8 @@ The final optimized LightGBM model showed a clear improvement in performance acr
 | **Precision (Toxic)**| 0.39 | **0.68** |  **Significantly Improved** |
 | **Recall (Toxic)** | 0.69 | 0.45 |  Decreased |
 
-**Model Strengths & Interpretation**
+**Model Strengths & Interpretation:**
+
 The optimized LightGBM model demonstrates several key advantages over the baseline Random Forest:
 
 Higher Predictive Certainty: The most significant improvement is in precision for the toxic class (0.68 vs. 0.39). This means when the LightGBM model flags a compound as toxic, it is far more likely to be correct, reducing the rate of false alarms.
