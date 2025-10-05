@@ -1,4 +1,4 @@
-This project is an implementation of the "In Silico Toxicology Modeling" tutorial originally created by Dr. Layla Hosseini-Gerami and Srijit Seal in July 2024. The goal of this repository is to reproduce their findings for educational purposes and to demonstrate my understanding of cheminformatics and predictive modeling techniques.
+This project is a modified and extended version of the "In Silico Toxicology Modeling" tutorial originally created by Dr. Layla Hosseini-Gerami and Srijit Seal in July 2024. The goal of this repository is to reproduce their findings for educational purposes and to demonstrate my understanding of cheminformatics and predictive modeling techniques.
 
 Original Authors: Dr. Layla Hosseini-Gerami (layla[at]ignotalabs.ai) | Srijit Seal (seal[at]broadinstitute.org)
 
